@@ -1,5 +1,7 @@
 # C++ examples Meson Build File
 
+subdir('driver_abstraction')
+
 executable('circular_buffer',
 	'circular_buffer.cpp',
 )
